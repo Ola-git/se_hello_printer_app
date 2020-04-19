@@ -6,6 +6,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - W projekcie wykorzystamy virtual environment, dla utworzenia hermetycznego środowisko dla aplikacji:
 
   ```
+  # po clonie trzeba przejsc do docelowego katalogu i tam dalej dzialac jak ponizej
   # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
   $ python3 -m venv .venv
 
@@ -47,7 +48,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
@@ -55,6 +56,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   ```
   # miejsce na twoje notatki
+  # uruchomic atom . - s kropka wtedy otworzy mi sie od razu moj projekt
   ```
 
 # Pomocnicze
