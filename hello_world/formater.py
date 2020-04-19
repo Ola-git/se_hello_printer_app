@@ -20,7 +20,6 @@ def get_formatted(msg, imie, format):
         result = format_to_json(msg, imie)
     elif format == XML:
         result = format_to_xml(msg, imie)
-    print("test123")
     return result
 
 
@@ -29,7 +28,7 @@ def format_to_json(msg, imie):
             msg + '"}')
 
 def format_to_xml(msg, imie):
-    return ('<name>' + imie + '</name>')
+    return ('<name>' + imie + '</name>' + '<msg>' + msg + '</msg>')
 
 
 def plain_text(msg, imie):
