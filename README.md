@@ -5,6 +5,10 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - W projekcie wykorzystamy virtual environment, dla utworzenia hermetycznego środowisko dla aplikacji:
 
+<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=HadrvJZgJ3&Days=1&Design=1" /></a>
+
+https://travis-ci.org/Ola-git/se_hello_printer_app.svg?branch=master
+
   ```
   # po clonie trzeba przejsc do docelowego katalogu i tam dalej dzialac jak ponizej
   # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
