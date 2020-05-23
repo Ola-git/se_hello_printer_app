@@ -86,3 +86,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
+
+  Dodanie monitoringu - statuscake.com:
+    - dodanie uptime monitoringu
+    - podanie adresu applikacji
+    - Contact Group
