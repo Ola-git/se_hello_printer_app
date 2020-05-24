@@ -7,6 +7,13 @@ pipeline {
             }
 
         }
+        stage('Linter') {
+            steps {
+                    sh 'make lint'
+            }
+
+        }
+
         stage('Test') {
             steps {
 	                 sh 'make test'
